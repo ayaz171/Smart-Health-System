@@ -1,8 +1,15 @@
+<style>
+<?php
+
+include '../style.css';
+
+?>
+</style>
 <!DOCTYPE html>
 <html lang="en-US">
 <body>
 
-<div id="google_translate_element" class="bg-1""></div>
+<div id="google_translate_element"></div>
 
 <script type="text/javascript">
 function googleTranslateElementInit() {
@@ -11,6 +18,8 @@ function googleTranslateElementInit() {
 </script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
 
 </body>
 </html>
